@@ -1,0 +1,79 @@
+
+body{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+header{
+    background: darkgray;
+}
+
+h1{
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px #ccc;
+    height: 50px;
+    padding-top: 12px;
+    border: 3px solid black;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+}
+
+.imagen1{
+    margin-left: 50px;
+    width: 50%;
+    height: 30%;
+}
+
+.fila1, .fila2{
+    display: flex;
+    flex-direction: row;
+}
+
+.column1{
+        width: 50%;
+}
+
+.column2{
+    width: 50%;
+}
+
+.caja1{
+    width: 90%;
+    height: 100%;
+    background-image: url("https://static.dw.com/image/65102005_303.jpg");
+}
+
+.caja2{
+    width: 90%;
+    height: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz60fXHvzWlHvipz7MEqPbTehThYp_c_vS_mdi8KqlGw&s");
+}
+
+.caja3{
+    width: 90%;
+    height: 100%;
+    background-image: url("https://phantom-elmundo.unidadeditorial.es/9de89263edd5cc22018ebb597981aef3/resize/746/f/webp/assets/multimedia/imagenes/2023/03/23/16795739632679.jpg");
+}
+
+.caja4{
+    width: 90%;
+    height: 100%;
+    background-image: url("https://phantom-elmundo.unidadeditorial.es/7d3b41a3195e29bb65db15a345c464ac/resize/746/f/webp/assets/multimedia/imagenes/2023/03/22/16795086874432.jpg");
+}
+
+
+
