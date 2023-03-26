@@ -51,29 +51,13 @@ h2{
     width: 50%;
 }
 
-.caja1{
+.caja1, .caja2, .caja3, .caja4{
     width: 90%;
     height: 100%;
-    background-image: url("https://static.dw.com/image/65102005_303.jpg");
 }
 
-.caja2{
-    width: 90%;
-    height: 100%;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz60fXHvzWlHvipz7MEqPbTehThYp_c_vS_mdi8KqlGw&s");
-}
 
-.caja3{
-    width: 90%;
-    height: 100%;
-    background-image: url("https://phantom-elmundo.unidadeditorial.es/9de89263edd5cc22018ebb597981aef3/resize/746/f/webp/assets/multimedia/imagenes/2023/03/23/16795739632679.jpg");
-}
 
-.caja4{
-    width: 90%;
-    height: 100%;
-    background-image: url("https://phantom-elmundo.unidadeditorial.es/7d3b41a3195e29bb65db15a345c464ac/resize/746/f/webp/assets/multimedia/imagenes/2023/03/22/16795086874432.jpg");
-}
 
 
 
