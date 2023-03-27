@@ -24,16 +24,13 @@ h1{
     flex-direction: column;
 }
 
-h2{
-    color: black;
-    font-weight: bold;
-    text-align: left;
-    display: flex;
-}
 
 .imagen1{
-    margin-left: 50px;
-    width: 50%;
+    width: 100%;
+}
+
+.imagen2, .imagen3, .imagen4, .imagen5{
+    width: 100%;
 }
 
 .column{
@@ -41,7 +38,6 @@ h2{
 }
 
 .fila1, .fila2{
-    display: flex;
     flex-direction: row;
 }
 
@@ -54,7 +50,7 @@ h2{
 }
 
 .caja1, .caja2, .caja3, .caja4{
-    width: 90%;
+    width: 100%;
 }
 
 .fila3{
@@ -64,18 +60,14 @@ h2{
 }
 
 .caja5, .caja6, .caja7, .caja8{
-    width: 40%;
-    height: 100%;
+    width: 95%;
     text-align: center;
 }
 
 .imagen6, .imagen7, .imagen8, .imagen9{
-    width: 200%;
+    width: 100%;
 }
 
-.column3, .column4{
-    width: 50%;
-}
 
 footer{
     background: darkgray;
@@ -88,6 +80,50 @@ section{
     width:100%;
 }
 
+.column_principal{
+    width: 100%;
+}
 
 
+.tablac, .tablaa, .tablag{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
 
+.tablac td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tablac th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tablaa td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tablaa th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tablag td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.tablag th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
