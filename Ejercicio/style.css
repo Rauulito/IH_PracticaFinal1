@@ -41,13 +41,10 @@ h1{
     flex-direction: row;
 }
 
-.column1{
+.column1, .column2{
     width: 50%;
 }
 
-.column2{
-    width: 50%;
-}
 
 .caja1, .caja2, .caja3, .caja4{
     width: 100%;
@@ -64,16 +61,18 @@ h1{
     text-align: center;
 }
 
+
+
 .imagen6, .imagen7, .imagen8, .imagen9{
     width: 100%;
 }
+
 
 
 footer{
     background: darkgray;
     text-align: center;
     padding-top: 12px;
-    border: 3px solid black;
 }
 
 section{
@@ -126,4 +125,8 @@ section{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+}
+
+.imagen10{
+    width: 100%;
 }
