@@ -2,15 +2,21 @@
 <html>
 
     <head>
-        <title>FORMULARIO</title>
+        <title>Formulario</title>
         <link rel="stylesheet" href="./style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <a href="index.html">Página principal</a>
-        <a href="pagina1.html">Liga Española</a>
-        <a href="pagina2.html">Premier League</a>
+        <meta charset="UTF-8">
     </head>
 
     <body>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="pagina1.html">Liga Española</a></li>
+                <li><a href="pagina2.html">Premier League</a></li>
+                <li><a href="pagina3.html">Formulario</a></li>
+            </ul>
+        </nav>
         <header>
             <h1>FORMULARIO</h1>
         </header>
@@ -21,36 +27,36 @@
             <div class=" column column1">
                 <div class="caja5 ">
                     <div>
-                        <img class="imagen6" src="https://media.tycsports.com/files/2022/10/17/493857/maradona-con-el-balon-de-oro_1440x810_wmk.webp?v=1" alt="Maradona" >
+                        <img class="imagen6" src="https://media.tycsports.com/files/2022/10/17/493857/maradona-con-el-balon-de-oro_1440x810_wmk.webp?v=1" alt="Maradona" title="Maradona" >
                     </div>
-                    <p>Diego Armando Maradona</p>
+                    <p><span class="jugador">Diego Armando Maradona</span></p>
                 </div>
                 <div class="caja6 ">
                     <div>
-                        <img class="imagen7" src="https://static.dw.com/image/61527609_303.jpg" alt="Pelé">
+                        <img class="imagen7" src="https://static.dw.com/image/61527609_303.jpg" alt="Pelé" title="Pelé">
                     </div>
-                    <p>Pele</p>
+                    <p><span class="jugador">Pele</span></p>
                 </div>
             </div>
             <div class=" column column2">
                 <div class="caja7 ">
                     <div>
-                        <img class="imagen8"src="https://estaticos-cdn.prensaiberica.es/clip/71153cbb-ae8c-44b9-80d5-67cd0d5d76d9_16-9-discover-aspect-ratio_default_0.jpg" alt="Cristiano Ronaldo" >
+                        <img class="imagen8"src="https://estaticos-cdn.prensaiberica.es/clip/71153cbb-ae8c-44b9-80d5-67cd0d5d76d9_16-9-discover-aspect-ratio_default_0.jpg" alt="Cristiano Ronaldo" title="Cristiano Ronaldo">
                     </div>
-                    <p>Cristiano Ronaldo</p>
+                    <p><span class="jugador">Cristiano Ronaldo</span></p>
                 </div>
                 <div class="caja8 ">
                     <div>
-                        <img class="imagen9" src="https://static.dw.com/image/64142948_303.jpg" alt="Lionel Messi">
+                        <img class="imagen9" src="https://static.dw.com/image/64142948_303.jpg" alt="Lionel Messi" title="Lionel Messi">
                     </div>
-                    <p>Lionel Messi</p>
+                    <p><span class="jugador">Lionel Messi</span></p>
                 </div>
             </div>
         </section>
         <section>
             <h2 id="Frm">Rellena el siguiente formulario:</h2>
             <form action="enviado.html" method="get">
-                <ul>
+                <ul class="lista1">
                     <li>
                         <label for="nombre">Escribe tu nombre:</label>
                         <input type="text" id="name">
@@ -102,11 +108,15 @@
             </form>
         </section>
         <footer>
+            <div>
+                <img class="imageniron" src="https://www.aial.es/wp-content/uploads/2018/11/Logo-Ironhack.jpg" alt="Logo iron" title="Logo iron">
+            </div>
             <p>© 2023 - Todos los derechos reservados</p>
             <p> Para mas información escriba un correo a meencantaelfutbol@gmail.com</p>
             <a href="index.html">Página principal</a>
             <a href="pagina1.html">Liga Española</a>
             <a href="pagina2.html">Premier League</a>
+            <a href="pagina3.html">Formulario</a>
         </footer>
     </body>
 
